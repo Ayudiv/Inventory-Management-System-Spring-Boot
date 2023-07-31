@@ -131,8 +131,7 @@ public class Role implements Serializable {
 		this.userRoles = userRoles;
 	}
 
-	public UserRole addUserRole(UserRole
-										userRole) {
+	public UserRole addUserRole(UserRole userRole) {
 		getUserRoles().add(userRole);
 		userRole.setRole(this);
 
